@@ -26,6 +26,12 @@ Example run of the motion accuracy tests:
   <img src="docs/launch_output.png" width="700">
 </p>
 
+### Motion Accuracy Launch
+
+```bash
+ros2 launch tb3_motion_accuracy_test motion_accuracy_all.launch.py
+```
+
 <p align="center">
   <img src="docs/launch.gif" width="700">
 </p>
