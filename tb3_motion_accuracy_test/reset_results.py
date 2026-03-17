@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 
-from tb3_base_validation.result_utils import reset_results_file
+from tb3_motion_accuracy_test.result_utils import reset_results_file
 
 
 class ResetResults(Node):

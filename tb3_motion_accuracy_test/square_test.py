@@ -18,7 +18,7 @@ from rclpy.node import Node
 from geometry_msgs.msg import TwistStamped
 from nav_msgs.msg import Odometry
 
-from tb3_base_validation.result_utils import append_result
+from tb3_motion_accuracy_test.result_utils import append_result
 
 
 # ===== Test Settings =====

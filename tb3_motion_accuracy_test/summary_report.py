@@ -1,18 +1,15 @@
 import csv
-from pathlib import Path
 
 import rclpy
 from rclpy.node import Node
 
-from tb3_base_validation.result_utils import RESULTS_FILE
+from tb3_motion_accuracy_test.result_utils import RESULTS_FILE
+
 
 TEST_ORDER = [
-    'timed_forward',
-    'timed_back',
-    'odom_forward',
-    'odom_back',
-    'rotate_ccw',
-    'rotate_cw',
+    'out_and_back_test',
+    'square_test',
+    'figure8_test',
 ]
 
 

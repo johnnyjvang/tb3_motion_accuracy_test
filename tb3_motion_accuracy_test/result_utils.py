@@ -1,7 +1,7 @@
 import csv
 from pathlib import Path
 
-RESULTS_DIR = Path('/tmp/tb3_base_validation')
+RESULTS_DIR = Path('/tmp/tb3_motion_accuracy_test')
 RESULTS_FILE = RESULTS_DIR / 'results.csv'
 
 
