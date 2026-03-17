@@ -27,6 +27,7 @@ setup(
             'reset_results = tb3_motion_accuracy_test.reset_results:main',
             'out_and_back_test = tb3_motion_accuracy_test.out_and_back_test:main',
             'square_test = tb3_motion_accuracy_test.square_test:main',
+            'circle_test = tb3_motion_accuracy_test.circle_test:main',
         ],
     },
 )
